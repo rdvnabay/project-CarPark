@@ -1,0 +1,91 @@
+2021-05-26 17:48:19.468 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 17:48:20.044 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 17:48:20.046 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 17:48:20.049 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 17:48:20.050 +03:00 [INF] Hosting environment: Development
+2021-05-26 17:48:20.052 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 17:48:21.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 17:48:21.547 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 17:48:21.638 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 17:48:21.664 +03:00 [INF] Loglama yapıldı
+2021-05-26 17:48:23.389 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 17:48:23.442 +03:00 [INF] Executed ViewResult - view Index executed in 53.8793ms.
+2021-05-26 17:48:23.450 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 1808.2127ms
+2021-05-26 17:48:23.452 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 17:48:23.457 +03:00 [INF] Request finished in 1943.2756ms 200 text/html; charset=utf-8
+2021-05-26 17:48:31.047 +03:00 [INF] Application is shutting down...
+2021-05-26 17:49:20.864 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 17:49:21.412 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 17:49:21.414 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 17:49:21.415 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 17:49:21.416 +03:00 [INF] Hosting environment: Development
+2021-05-26 17:49:21.418 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 17:49:22.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 17:49:22.458 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 17:49:22.518 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 17:49:22.546 +03:00 [ERR] Loglama yapıldı
+2021-05-26 17:49:23.056 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 17:49:23.119 +03:00 [INF] Executed ViewResult - view Index executed in 64.0884ms.
+2021-05-26 17:49:23.129 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 608.03ms
+2021-05-26 17:49:23.144 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 17:49:23.150 +03:00 [INF] Request finished in 720.7418ms 200 text/html; charset=utf-8
+2021-05-26 17:57:10.442 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 17:57:11.088 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 17:57:11.097 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 17:57:11.101 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 17:57:11.103 +03:00 [INF] Hosting environment: Development
+2021-05-26 17:57:11.104 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 17:57:12.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 17:57:12.705 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 17:57:12.767 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 17:57:12.795 +03:00 [ERR] Loglama yapıldı
+2021-05-26 17:57:13.336 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 17:57:13.404 +03:00 [INF] Executed ViewResult - view Index executed in 75.619ms.
+2021-05-26 17:57:13.412 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 641.7396ms
+2021-05-26 17:57:13.414 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 17:57:13.423 +03:00 [INF] Request finished in 746.8549ms 200 text/html; charset=utf-8
+2021-05-26 18:00:18.350 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 18:00:18.901 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 18:00:18.929 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 18:00:18.931 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 18:00:18.933 +03:00 [INF] Hosting environment: Development
+2021-05-26 18:00:18.935 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 18:00:19.903 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 18:00:19.934 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 18:00:19.994 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 18:00:20.061 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622041220,"Machine":11341678,"Pid":-5987,"Increment":2185552,"CreationTime":"2021-05-26T15:00:20.0000000Z","$type":"ObjectId"},"FirstName":"Rıdvan","LastName":"Abay","Age":28,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 18:00:20.633 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 18:00:20.690 +03:00 [INF] Executed ViewResult - view Index executed in 59.3383ms.
+2021-05-26 18:00:20.697 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 700.5206ms
+2021-05-26 18:00:20.702 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 18:00:20.720 +03:00 [INF] Request finished in 811.5952ms 200 text/html; charset=utf-8
+2021-05-26 18:02:54.697 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 18:02:55.255 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 18:02:55.270 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 18:02:55.272 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 18:02:55.273 +03:00 [INF] Hosting environment: Development
+2021-05-26 18:02:55.275 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 18:02:56.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 18:02:56.321 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 18:02:56.380 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 18:02:56.429 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622041376,"Machine":7118,"Pid":-12511,"Increment":14500763,"CreationTime":"2021-05-26T15:02:56.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 18:03:02.023 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 18:03:02.079 +03:00 [INF] Executed ViewResult - view Index executed in 57.5934ms.
+2021-05-26 18:03:02.085 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 5701.517ms
+2021-05-26 18:03:02.090 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 18:03:02.100 +03:00 [INF] Request finished in 5808.445ms 200 text/html; charset=utf-8
+2021-05-26 18:07:50.498 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 18:07:51.029 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 18:07:51.035 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 18:07:51.037 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 18:07:51.039 +03:00 [INF] Hosting environment: Development
+2021-05-26 18:07:51.041 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 18:07:52.206 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 18:07:52.234 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 18:07:52.287 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 18:07:52.343 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622041672,"Machine":5118503,"Pid":8265,"Increment":15109022,"CreationTime":"2021-05-26T15:07:52.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 18:07:52.943 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 18:07:53.022 +03:00 [INF] Executed ViewResult - view Index executed in 80.8574ms.
+2021-05-26 18:07:53.026 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 735.6443ms
+2021-05-26 18:07:53.028 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 18:07:53.035 +03:00 [INF] Request finished in 832.9676ms 200 text/html; charset=utf-8

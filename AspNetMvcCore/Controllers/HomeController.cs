@@ -16,17 +16,12 @@ namespace AspNetMvcCore.Controllers
         }
         public IActionResult Index()
         {
-            _logger.LogInformation("Loglama yapıldı");
-            var client = new MongoClient("mongodb+srv://rdvnabay:12345@carparkcluster.m1mmp.mongodb.net/CarParkDb?retryWrites=true&w=majority");
-            var database = client.GetDatabase("CarParkDb");
-            var collection = database.GetCollection<Test>("Test");
-
             var test = new Test
             {
                 _Id = ObjectId.GenerateNewId(),
-                FirstName = "Rıdvan",
-                LastName = "Abay",
-                Age = 28,
+                FirstName = "Ramazan",
+                LastName = "Beyaz",
+                Age = 25,
                 Addresses = new List<Address>()
                 {
                     new Address
@@ -41,7 +36,14 @@ namespace AspNetMvcCore.Controllers
                     }
                 }
             };
-            collection.InsertOne(test);
+
+            _logger.LogError("Loglama yapıldı {@test}",test);
+            var client = new MongoClient("mongodb+srv://rdvnabay:12345@carparkcluster.m1mmp.mongodb.net/CarParkDb?retryWrites=true&w=majority");
+            var database = client.GetDatabase("CarParkDb");
+            var collection = database.GetCollection<Test>("Test");
+
+          
+            //collection.InsertOne(test);
             return View();
         }
     }

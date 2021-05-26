@@ -14,8 +14,13 @@ namespace AspNetMvcCore
     {
         public static void Main(string[] args)
         {
-            Log.Logger = new LoggerConfiguration()
+           Log.Logger = new LoggerConfiguration()
           .WriteTo.Console()
+          .WriteTo.File("log.txt")
+          .WriteTo.Seq("http://localhost:5341/")
+          .MinimumLevel.Information()
+          .Enrich.WithMachineName()
+          .Enrich.WithProperty("ApplicationName", "CarPark.MvcCoreWebUI")
           .CreateLogger();
            CreateHostBuilder(args).Build().Run();
         }
