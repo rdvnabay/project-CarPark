@@ -1,3 +1,4 @@
+using AspNetMvcCore.Resources;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Localization;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Reflection;
 
 namespace AspNetMvcCore
 {
@@ -26,7 +28,14 @@ namespace AspNetMvcCore
             services.AddRazorPages();
             services.AddMvc()
                 .AddViewLocalization()
-                .AddDataAnnotationsLocalization();
+                .AddDataAnnotationsLocalization(
+                options => {
+                    options.DataAnnotationLocalizerProvider = (type, factory) =>
+                      {
+                          var assemblyName = new AssemblyName(typeof(SharedModelResource).GetTypeInfo().Assembly.FullName);
+                          return factory.Create(nameof(SharedModelResource), assemblyName.Name);
+                      };
+                });
             services.AddLocalization(opt =>
             {
                 opt.ResourcesPath = "Resources";
