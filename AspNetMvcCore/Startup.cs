@@ -37,7 +37,7 @@ namespace AspNetMvcCore
                     new CultureInfo("en-US"),
                     new CultureInfo("ar-SA")
                 };
-                opt.DefaultRequestCulture = new RequestCulture("tr-TR");
+                opt.DefaultRequestCulture = new RequestCulture("en-US");
                 opt.SupportedCultures = supportedCultures;
                 opt.SupportedUICultures = supportedCultures;
 
