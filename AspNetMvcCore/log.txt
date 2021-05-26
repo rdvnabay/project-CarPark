@@ -143,3 +143,348 @@
 2021-05-26 20:14:17.605 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/index  
 2021-05-26 20:14:17.628 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Index (AspNetMvcCore)'
 2021-05-26 20:14:17.636 +03:00 [INF] Route matched with {action = "Index", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:39:17.668 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 20:39:19.636 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 20:39:19.640 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 20:39:19.642 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 20:39:19.643 +03:00 [INF] Hosting environment: Development
+2021-05-26 20:39:19.645 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 20:39:26.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 20:39:27.062 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:39:27.439 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 20:39:27.653 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622050767,"Machine":10638767,"Pid":-16591,"Increment":6800997,"CreationTime":"2021-05-26T17:39:27.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 20:39:29.056 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 20:39:29.281 +03:00 [INF] Executed ViewResult - view Index executed in 276.4539ms.
+2021-05-26 20:39:29.288 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 1843.0891ms
+2021-05-26 20:39:29.292 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:39:29.296 +03:00 [INF] Request finished in 2571.5474ms 200 text/html; charset=utf-8
+2021-05-26 20:39:40.307 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create  
+2021-05-26 20:39:40.351 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:39:40.360 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:39:40.367 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:39:40.373 +03:00 [INF] Executed ViewResult - view Create executed in 7.15ms.
+2021-05-26 20:39:40.411 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 46.0066ms
+2021-05-26 20:39:40.413 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:39:40.416 +03:00 [INF] Request finished in 108.7229ms 200 text/html; charset=utf-8
+2021-05-26 20:39:45.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:39:45.175 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:39:45.179 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:39:45.194 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:39:45.204 +03:00 [INF] Executed ViewResult - view Create executed in 10.8118ms.
+2021-05-26 20:39:45.208 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 15.215ms
+2021-05-26 20:39:45.210 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:39:45.213 +03:00 [INF] Request finished in 97.5903ms 200 text/html; charset=utf-8
+2021-05-26 20:47:29.818 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 20:47:30.683 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 20:47:30.691 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 20:47:30.693 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 20:47:30.695 +03:00 [INF] Hosting environment: Development
+2021-05-26 20:47:30.698 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 20:47:34.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 20:47:35.161 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:47:35.450 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 20:47:35.615 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622051255,"Machine":8864735,"Pid":-2784,"Increment":704834,"CreationTime":"2021-05-26T17:47:35.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 20:47:36.456 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 20:47:36.563 +03:00 [INF] Executed ViewResult - view Index executed in 115.3042ms.
+2021-05-26 20:47:36.571 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 1114.7219ms
+2021-05-26 20:47:36.574 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:47:36.593 +03:00 [INF] Request finished in 1681.623ms 200 text/html; charset=utf-8
+2021-05-26 20:47:43.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create  
+2021-05-26 20:47:43.812 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:47:43.819 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:47:43.826 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:47:43.834 +03:00 [INF] Executed ViewResult - view Create executed in 8.3034ms.
+2021-05-26 20:47:43.837 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 13.1563ms
+2021-05-26 20:47:43.841 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:47:43.843 +03:00 [INF] Request finished in 40.6945ms 200 text/html; charset=utf-8
+2021-05-26 20:47:48.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:47:48.593 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:47:48.596 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:47:48.600 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:47:48.605 +03:00 [INF] Executed ViewResult - view Create executed in 5.0051ms.
+2021-05-26 20:47:48.608 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 9.1664ms
+2021-05-26 20:47:48.611 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:47:48.613 +03:00 [INF] Request finished in 24.8628ms 200 text/html; charset=utf-8
+2021-05-26 20:48:21.141 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 20:48:21.674 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 20:48:21.690 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 20:48:21.693 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 20:48:21.694 +03:00 [INF] Hosting environment: Development
+2021-05-26 20:48:21.699 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 20:48:22.903 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 20:48:22.963 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:48:23.022 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 20:48:23.086 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622051303,"Machine":5195397,"Pid":13182,"Increment":15413309,"CreationTime":"2021-05-26T17:48:23.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 20:48:23.654 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 20:48:23.723 +03:00 [INF] Executed ViewResult - view Index executed in 72.4199ms.
+2021-05-26 20:48:23.728 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 702.4672ms
+2021-05-26 20:48:23.730 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:48:23.738 +03:00 [INF] Request finished in 841.5869ms 200 text/html; charset=utf-8
+2021-05-26 20:48:29.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create  
+2021-05-26 20:48:29.275 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:29.281 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:48:29.289 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:48:29.297 +03:00 [INF] Executed ViewResult - view Create executed in 9.9039ms.
+2021-05-26 20:48:29.299 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 13.9471ms
+2021-05-26 20:48:29.302 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:29.304 +03:00 [INF] Request finished in 40.2826ms 200 text/html; charset=utf-8
+2021-05-26 20:48:30.740 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:48:30.748 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:30.751 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:48:30.758 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:48:30.768 +03:00 [INF] Executed ViewResult - view Create executed in 9.8469ms.
+2021-05-26 20:48:30.771 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 13.8213ms
+2021-05-26 20:48:30.776 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:30.780 +03:00 [INF] Request finished in 40.3102ms 200 text/html; charset=utf-8
+2021-05-26 20:48:31.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:48:31.783 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:31.788 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:48:31.796 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:48:31.810 +03:00 [INF] Executed ViewResult - view Create executed in 13.4966ms.
+2021-05-26 20:48:31.814 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 19.0673ms
+2021-05-26 20:48:31.818 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:31.821 +03:00 [INF] Request finished in 42.7436ms 200 text/html; charset=utf-8
+2021-05-26 20:48:31.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:48:31.988 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:31.993 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:48:31.997 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:48:32.000 +03:00 [INF] Executed ViewResult - view Create executed in 3.6609ms.
+2021-05-26 20:48:32.014 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 17.8119ms
+2021-05-26 20:48:32.020 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:32.024 +03:00 [INF] Request finished in 39.5057ms 200 text/html; charset=utf-8
+2021-05-26 20:48:32.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:48:32.282 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:32.284 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:48:32.291 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:48:32.295 +03:00 [INF] Executed ViewResult - view Create executed in 4.422ms.
+2021-05-26 20:48:32.299 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 7.916ms
+2021-05-26 20:48:32.303 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:32.306 +03:00 [INF] Request finished in 26.8286ms 200 text/html; charset=utf-8
+2021-05-26 20:48:34.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:48:34.516 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:34.520 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:48:34.527 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:48:34.531 +03:00 [INF] Executed ViewResult - view Create executed in 3.5509ms.
+2021-05-26 20:48:34.534 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 7.5261ms
+2021-05-26 20:48:34.540 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:48:34.545 +03:00 [INF] Request finished in 31.9349ms 200 text/html; charset=utf-8
+2021-05-26 20:51:52.386 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 20:51:53.076 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-26 20:51:53.078 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-26 20:51:53.080 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 20:51:53.082 +03:00 [INF] Hosting environment: Development
+2021-05-26 20:51:53.084 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 20:51:54.346 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-26 20:51:54.410 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:51:54.503 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 20:51:54.594 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622051514,"Machine":7568340,"Pid":-3131,"Increment":1450760,"CreationTime":"2021-05-26T17:51:54.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 20:51:55.254 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 20:51:55.325 +03:00 [INF] Executed ViewResult - view Index executed in 75.5952ms.
+2021-05-26 20:51:55.330 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 819.978ms
+2021-05-26 20:51:55.332 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:51:55.337 +03:00 [INF] Request finished in 994.2035ms 200 text/html; charset=utf-8
+2021-05-26 20:51:58.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create  
+2021-05-26 20:51:58.063 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:51:58.069 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:51:58.075 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:51:58.081 +03:00 [INF] Executed ViewResult - view Create executed in 7.1293ms.
+2021-05-26 20:51:58.085 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 11.8817ms
+2021-05-26 20:51:58.089 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:51:58.093 +03:00 [INF] Request finished in 35.2977ms 200 text/html; charset=utf-8
+2021-05-26 20:51:59.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:51:59.731 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:51:59.734 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:51:59.741 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:51:59.748 +03:00 [INF] Executed ViewResult - view Create executed in 8.0283ms.
+2021-05-26 20:51:59.752 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 12.5053ms
+2021-05-26 20:51:59.757 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:51:59.764 +03:00 [INF] Request finished in 40.599ms 200 text/html; charset=utf-8
+2021-05-26 20:52:08.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:08.384 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:08.388 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:08.396 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:08.404 +03:00 [INF] Executed ViewResult - view Create executed in 7.5859ms.
+2021-05-26 20:52:08.407 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 12.2882ms
+2021-05-26 20:52:08.410 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:08.414 +03:00 [INF] Request finished in 35.3703ms 200 text/html; charset=utf-8
+2021-05-26 20:52:11.196 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:11.199 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:11.201 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:11.207 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:11.212 +03:00 [INF] Executed ViewResult - view Create executed in 4.3821ms.
+2021-05-26 20:52:11.216 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 9.0975ms
+2021-05-26 20:52:11.220 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:11.226 +03:00 [INF] Request finished in 30.153ms 200 text/html; charset=utf-8
+2021-05-26 20:52:11.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:11.980 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:11.982 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:11.988 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:11.992 +03:00 [INF] Executed ViewResult - view Create executed in 4.5381ms.
+2021-05-26 20:52:11.996 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 8.7596ms
+2021-05-26 20:52:12.001 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:12.008 +03:00 [INF] Request finished in 31.6815ms 200 text/html; charset=utf-8
+2021-05-26 20:52:20.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:20.678 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:20.681 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:20.688 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:20.694 +03:00 [INF] Executed ViewResult - view Create executed in 5.9135ms.
+2021-05-26 20:52:20.698 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 10.9807ms
+2021-05-26 20:52:20.701 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:20.705 +03:00 [INF] Request finished in 29.8056ms 200 text/html; charset=utf-8
+2021-05-26 20:52:23.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:23.435 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:23.439 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:23.446 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:23.450 +03:00 [INF] Executed ViewResult - view Create executed in 4.0423ms.
+2021-05-26 20:52:23.456 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 11.4908ms
+2021-05-26 20:52:23.459 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:23.462 +03:00 [INF] Request finished in 30.2325ms 200 text/html; charset=utf-8
+2021-05-26 20:52:24.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:24.253 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:24.257 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:24.265 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:24.269 +03:00 [INF] Executed ViewResult - view Create executed in 4.0437ms.
+2021-05-26 20:52:24.274 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 8.79ms
+2021-05-26 20:52:24.280 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:24.285 +03:00 [INF] Request finished in 35.5228ms 200 text/html; charset=utf-8
+2021-05-26 20:52:25.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:25.268 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:25.271 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:25.278 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:25.281 +03:00 [INF] Executed ViewResult - view Create executed in 3.5053ms.
+2021-05-26 20:52:25.283 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 6.3835ms
+2021-05-26 20:52:25.287 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:25.294 +03:00 [INF] Request finished in 29.3457ms 200 text/html; charset=utf-8
+2021-05-26 20:52:27.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create  
+2021-05-26 20:52:27.459 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:27.462 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:27.467 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:27.470 +03:00 [INF] Executed ViewResult - view Create executed in 3.5874ms.
+2021-05-26 20:52:27.475 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 9.0282ms
+2021-05-26 20:52:27.479 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:27.482 +03:00 [INF] Request finished in 28.2953ms 200 text/html; charset=utf-8
+2021-05-26 20:52:29.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/user/create?  
+2021-05-26 20:52:29.061 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:29.064 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:52:29.069 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:52:29.073 +03:00 [INF] Executed ViewResult - view Create executed in 4.2686ms.
+2021-05-26 20:52:29.077 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 9.4062ms
+2021-05-26 20:52:29.081 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:52:29.083 +03:00 [INF] Request finished in 25.2517ms 200 text/html; charset=utf-8
+2021-05-26 20:53:06.641 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 20:53:07.455 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 20:53:07.455 +03:00 [INF] Hosting environment: Development
+2021-05-26 20:53:07.456 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 20:53:07.575 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/  
+2021-05-26 20:53:07.646 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:53:07.716 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 20:53:07.793 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622051587,"Machine":279934,"Pid":7116,"Increment":2275027,"CreationTime":"2021-05-26T17:53:07.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 20:53:08.882 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 20:53:08.998 +03:00 [INF] Executed ViewResult - view Index executed in 121.7029ms.
+2021-05-26 20:53:09.000 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 1283.1822ms
+2021-05-26 20:53:09.001 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:53:09.005 +03:00 [INF] Request finished in 1435.7535ms 200 text/html; charset=utf-8
+2021-05-26 20:53:11.256 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/user/create  
+2021-05-26 20:53:11.264 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:53:11.269 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:53:11.272 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:53:11.278 +03:00 [INF] Executed ViewResult - view Create executed in 7.6303ms.
+2021-05-26 20:53:11.279 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 9.55ms
+2021-05-26 20:53:11.279 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:53:11.279 +03:00 [INF] Request finished in 23.4375ms 200 text/html; charset=utf-8
+2021-05-26 20:53:12.960 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/user/create?  
+2021-05-26 20:53:12.964 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:53:12.965 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:53:12.967 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:53:12.972 +03:00 [INF] Executed ViewResult - view Create executed in 5.6887ms.
+2021-05-26 20:53:12.972 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 7.0199ms
+2021-05-26 20:53:12.972 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:53:12.973 +03:00 [INF] Request finished in 12.5256ms 200 text/html; charset=utf-8
+2021-05-26 20:53:14.088 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/user/create?  
+2021-05-26 20:53:14.090 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:53:14.091 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:53:14.092 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:53:14.095 +03:00 [INF] Executed ViewResult - view Create executed in 2.7294ms.
+2021-05-26 20:53:14.095 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 3.9356ms
+2021-05-26 20:53:14.095 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:53:14.095 +03:00 [INF] Request finished in 7.1496ms 200 text/html; charset=utf-8
+2021-05-26 20:56:43.767 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 20:56:44.225 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 20:56:44.226 +03:00 [INF] Hosting environment: Development
+2021-05-26 20:56:44.226 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 20:56:44.264 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/  
+2021-05-26 20:56:44.326 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:56:44.389 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 20:56:44.487 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622051804,"Machine":1772593,"Pid":13939,"Increment":806743,"CreationTime":"2021-05-26T17:56:44.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 20:56:45.228 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 20:56:45.343 +03:00 [INF] Executed ViewResult - view Index executed in 118.3588ms.
+2021-05-26 20:56:45.346 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 956.6657ms
+2021-05-26 20:56:45.347 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:56:45.356 +03:00 [INF] Request finished in 1093.8194ms 200 text/html; charset=utf-8
+2021-05-26 20:56:52.013 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/user/create  
+2021-05-26 20:56:52.019 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:56:52.022 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:56:52.032 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:56:52.323 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 299.8582ms
+2021-05-26 20:56:52.325 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:56:52.335 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-26 20:56:52.765 +03:00 [INF] Request finished in 753.1553ms 500 text/html; charset=utf-8
+2021-05-26 20:58:32.018 +03:00 [INF] User profile is available. Using 'C:\Users\Ramazan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-26 20:58:32.641 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-26 20:58:32.641 +03:00 [INF] Hosting environment: Development
+2021-05-26 20:58:32.641 +03:00 [INF] Content root path: C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore
+2021-05-26 20:58:32.686 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/  
+2021-05-26 20:58:32.757 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:58:32.835 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AspNetMvcCore.Controllers.HomeController (AspNetMvcCore).
+2021-05-26 20:58:32.902 +03:00 [ERR] Loglama yapıldı {"_Id":{"Timestamp":1622051912,"Machine":7039068,"Pid":22535,"Increment":637210,"CreationTime":"2021-05-26T17:58:32.0000000Z","$type":"ObjectId"},"FirstName":"Ramazan","LastName":"Beyaz","Age":25,"Addresses":[{"Title":"İstanbul","Description":"Adres 1","$type":"Address"},{"Title":"Ankara","Description":"Adres 2","$type":"Address"}],"$type":"Test"}
+2021-05-26 20:58:33.610 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-26 20:58:33.743 +03:00 [INF] Executed ViewResult - view Index executed in 138.2904ms.
+2021-05-26 20:58:33.747 +03:00 [INF] Executed action AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore) in 911.2064ms
+2021-05-26 20:58:33.747 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.HomeController.Index (AspNetMvcCore)'
+2021-05-26 20:58:33.753 +03:00 [INF] Request finished in 1072.6517ms 200 text/html; charset=utf-8
+2021-05-26 20:58:33.790 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/lib/jquery-validation/dist/jquery.validate.js  
+2021-05-26 20:58:33.790 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2021-05-26 20:58:36.457 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2021-05-26 20:58:36.458 +03:00 [INF] Request finished in 2667.6188ms 200 application/javascript
+2021-05-26 20:58:36.465 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Ramazan\source\repos\CarPark\AspNetMvcCore\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+2021-05-26 20:58:36.467 +03:00 [INF] Request finished in 2676.833ms 200 application/javascript
+2021-05-26 20:58:36.563 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44359/user/create  
+2021-05-26 20:58:36.568 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:58:36.572 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:58:36.576 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:58:36.669 +03:00 [INF] Executed ViewResult - view Create executed in 94.969ms.
+2021-05-26 20:58:36.670 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 97.1731ms
+2021-05-26 20:58:36.670 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:58:36.670 +03:00 [INF] Request finished in 107.9921ms 200 text/html; charset=utf-8
+2021-05-26 20:58:38.490 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44359/User/Create application/x-www-form-urlencoded 213
+2021-05-26 20:58:38.494 +03:00 [INF] Executing endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:58:38.568 +03:00 [INF] Route matched with {action = "Create", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(AspNetMvcCore.Models.UserModel) on controller AspNetMvcCore.Controllers.UserController (AspNetMvcCore).
+2021-05-26 20:58:43.763 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-26 20:58:43.867 +03:00 [INF] Executed ViewResult - view Create executed in 103.7193ms.
+2021-05-26 20:58:43.867 +03:00 [INF] Executed action AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore) in 5298.932ms
+2021-05-26 20:58:43.867 +03:00 [INF] Executed endpoint 'AspNetMvcCore.Controllers.UserController.Create (AspNetMvcCore)'
+2021-05-26 20:58:43.868 +03:00 [INF] Request finished in 5378.7717ms 200 text/html; charset=utf-8

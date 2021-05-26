@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AspNetMvcCore.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,17 @@ namespace AspNetMvcCore.Controllers
         {
             var firstName = _localizer["FirstName"];
             return View();
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(UserModel userModel)
+        {
+            return View(userModel);
         }
     }
 }
