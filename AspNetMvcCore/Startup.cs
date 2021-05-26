@@ -2,6 +2,7 @@ using AspNetMvcCore.Resources;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Localization.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -53,11 +54,18 @@ namespace AspNetMvcCore
                 opt.SupportedCultures = supportedCultures;
                 opt.SupportedUICultures = supportedCultures;
 
-                opt.RequestCultureProviders = new List<IRequestCultureProvider>
+                //opt.RequestCultureProviders = new List<IRequestCultureProvider>
+                //{
+                //    new QueryStringRequestCultureProvider(),
+                //    new CookieRequestCultureProvider(),
+                //    new AcceptLanguageHeaderRequestCultureProvider()
+                //};
+                opt.RequestCultureProviders = new[]
                 {
-                    new QueryStringRequestCultureProvider(),
-                    new CookieRequestCultureProvider(),
-                    new AcceptLanguageHeaderRequestCultureProvider()
+                    new RouteDataRequestCultureProvider()
+                    {
+                        Options=opt
+                    }
                 };
             });
         }
@@ -88,7 +96,9 @@ namespace AspNetMvcCore
             app.UseEndpoints(endpoints =>
             {
                 //endpoints.MapRazorPages();
-                endpoints.MapDefaultControllerRoute();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{culture}/{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
