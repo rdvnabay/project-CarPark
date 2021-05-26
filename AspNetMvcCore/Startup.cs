@@ -25,6 +25,7 @@ namespace AspNetMvcCore
          
             services.AddRazorPages();
             services.AddMvc()
+                .AddViewLocalization()
                 .AddDataAnnotationsLocalization();
             services.AddLocalization(opt =>
             {
