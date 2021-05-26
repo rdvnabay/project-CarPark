@@ -1,5 +1,9 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
-@inject IViewLocalizer localizer
+    @inject IViewLocalizer localizer
 
+@using AspNetMvcCore
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<SharedResource> localizerShared
 <h1>@localizer["Title"]</h1>
+<h1>@localizerShared["Welcome"]</h1>
 
