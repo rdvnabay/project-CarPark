@@ -10,7 +10,7 @@ namespace AspNetMvcCore
         {
            Log.Logger = new LoggerConfiguration()
           .WriteTo.Console()
-          .WriteTo.File("log.txt")
+          //.WriteTo.File("log.txt")
           .WriteTo.Seq("http://localhost:5341/")
           .MinimumLevel.Information()
           .Enrich.WithMachineName()

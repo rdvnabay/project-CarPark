@@ -117,10 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="FirstName_Required" xml:space="preserve">
-    <value>Adınızı giriniz</value>
+  <data name="FirstName" xml:space="preserve">
+    <value>Ad</value>
   </data>
-  <data name="LastName_Required" xml:space="preserve">
-    <value>Soyadınızı giriniz</value>
+  <data name="LastName" xml:space="preserve">
+    <value>Soyad</value>
+  </data>
+  <data name="{0} alanı zorunludur" xml:space="preserve">
+    <value>{0} alanı zorunludur</value>
   </data>
 </root>
