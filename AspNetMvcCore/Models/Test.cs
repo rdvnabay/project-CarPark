@@ -11,12 +11,12 @@ namespace AspNetMvcCore.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
-        public ICollection<Address> Addresses { get; set; }
+        //public ICollection<Address> Addresses { get; set; }
     }
 
-    public class Address
-    {
-        public string Title { get; set; }
-        public string Description { get; set; }
-    }
+    //public class Address
+    //{
+    //    public string Title { get; set; }
+    //    public string Description { get; set; }
+    //}
 }
