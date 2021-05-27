@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson;
+﻿using Core.Entities;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 namespace Core.DataAccess
 {
     public interface IDocumentEntityRepository<T>
+        where T:DocumentDbEntity
     {
         void Add(T entity);
         Task AddAsyc(T entity);
