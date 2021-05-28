@@ -23,6 +23,7 @@ namespace Core.DataAccess
 
         T GetById(ObjectId id);
         Task<T> GetByIdAsync(ObjectId id);
+
         IQueryable<T> GetList(Expression<Func<T, bool>> predicate = null);
         Task<IQueryable<T>> GetListAsync(Expression<Func<T, bool>> predicate = null);
 
